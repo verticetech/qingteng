@@ -56,7 +56,7 @@ Using `requirements.yml`
 ```yaml
 collections:
   - name: verticetech.qingteng_host
-    version: "1.2.0"  # Pin to stable releases
+    version: "1.0.2"  # Pin to stable releases
 ```
 
 Upgrade/Downgrade:
@@ -65,7 +65,7 @@ Upgrade to latest
 ansible-galaxy collection install verticetech.qingteng_host --upgrade
 
 Install specific version
-ansible-galaxy collection install verticetech.qingteng_host:==1.1.0
+ansible-galaxy collection install verticetech.qingteng_host:==1.0.2
 ```
 
 Post-Installation
@@ -149,7 +149,7 @@ Support
 Supported Versions
 | Collection Version | Ansible Versions | End of Life   |
 |--------------------|------------------|---------------|
-| 1.0.1              | 2.15      | EOL (Jan 2025)|
+| 1.0.2              | 2.15             | EOL (Jan 2025)|
 
 Support Channels
 - Enterprise Support:  (24/7 SLA).
