@@ -3,12 +3,9 @@
 Qingteng Host Status Collection Documentation
 Last Updated: March 4, 2025 | Version: 1.2.0
 
----
-
 Title of Collection
 `verticetech.qingteng_host` – Ansible Collection for Qingteng Cloud Host Status Monitoring
 
----
 
 Description
 The Qingteng Host Status Collection provides seamless integration with Qingteng Cloud’s API to monitor Linux host statuses (online/offline) and agent health.
@@ -28,7 +25,6 @@ Benefits:
 - Reduce manual checks by 90% through API-driven automation.
 - Ensure compliance with SLAs via programmatic status alerts.
 
----
 
 Requirements
 Minimum Versions
@@ -49,7 +45,6 @@ Prerequisites
 1. API Credentials: Store Qingteng username/password securely (e.g., Ansible Vault).
 2. Network Access: Ensure Ansible control node can reach `api.qingteng.internal:6000`.
 
----
 
 Installation
 Via Ansible Galaxy
@@ -86,7 +81,6 @@ Post-Installation
      -a "ip_addresses=['10.0.1.100'] hostnames=['web01']"
    ```
 
----
 
 Use Cases
 1. Batch Host Health Check
@@ -121,8 +115,6 @@ Steps:
 - Query all hosts with `agent_status=停用`.
 - Render data using Jinja2 templates.
 
----
-
 Testing
 Tested Environments
 | Environment           | Ansible | Python | Qingteng API | Status |
@@ -139,7 +131,6 @@ Known Issues
 | #45      | SSL cert verification failures  | Set `validate_certs: false`    |
 | #52      | Timezone mismatch in timestamps | Use `TZ=Asia/Shanghai` in playbook |
 
----
 
 Contributing
 We welcome contributions!
@@ -153,7 +144,6 @@ Community Channels:
 - Discussions:
 - Bugs/Requests:
 
----
 
 Support
 Supported Versions
@@ -166,24 +156,20 @@ Support Channels
 - Enterprise Support:  (24/7 SLA).
 - Community: GitHub Discussions and Stack Overflow (`qingteng-ansible` tag).
 
----
 
 Release Notes and Roadmap
 - Changelog:
 - Roadmap:
 
----
 
 Related Information
 - Video Demo:
 - Whitepaper:
 
----
 
 License Information
 - License: Apache 2.0
 - Full Text:
 
----
 
 Documentation Last Reviewed: March 4, 2025 |
