@@ -149,8 +149,7 @@ Support
 Supported Versions
 | Collection Version | Ansible Versions | End of Life   |
 |--------------------|------------------|---------------|
-| 1.2.x              | 2.12 – 2.15      | Dec 2026      |
-| 1.1.x              | 2.10 – 2.12      | EOL (Jan 2025)|
+| 1.0.1              | 2.15      | EOL (Jan 2025)|
 
 Support Channels
 - Enterprise Support:  (24/7 SLA).
